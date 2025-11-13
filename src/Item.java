@@ -16,6 +16,7 @@ public class Item {
 		this.isMagical = isMagical;
 	}
 
+	@Override
 	public String toString() {
 		String magicalStatus = isMagical ? "Magical item" : "Regular item";
 		return "Name: " + this.name + "\n" + "Value: " + this.value + "\n" + magicalStatus;

@@ -42,6 +42,7 @@ public class Player extends Character {
 		return false;
 	}
 
+	@Override
 	public String toString() {
 		String inventoryItems = "";
 

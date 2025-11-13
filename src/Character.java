@@ -61,6 +61,7 @@ public class Character {
 		}
 	}
 
+	@Override
 	public String toString() {
 		return "Name: " + this.name + "\n" + "Health: " + this.health + "\n" + "Level: " + this.level;
 	}
