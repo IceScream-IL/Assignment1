@@ -1,4 +1,4 @@
-
+//
 public class Enemy extends Character {
 	private int damage;
 
@@ -21,6 +21,6 @@ public class Enemy extends Character {
 
 	@Override
 	public String toString() {
-		return super.toString() + "\nDamage: " + this.damage;
+		return super.toString() + "\n" + "Damage: " + this.damage;
 	}
 }
