@@ -1,4 +1,3 @@
-//
 public class GameWorld {
 	private String name;
 	private Player[] players;
